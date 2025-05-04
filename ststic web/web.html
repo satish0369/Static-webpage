@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #1c2d4a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h3 {
+      margin-bottom: 15px;
+      color: #1c2d4a;
+    }
+
+    .service-card p {
+      color: #555;
+    }
+
+    .cta {
+      background-color: #2ecc71;
+      text-align: center;
+      padding: 40px 20px;
+      color: white;
+    }
+
+    .cta h2 {
+      margin-bottom: 15px;
+    }
+
+    .cta a {
+      background-color: white;
+      color: #2ecc71;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1c2d4a;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Professional Web Development Services</h1>
+    <p>We design and build modern, responsive, and scalable websites.</p>
+  </header>
+
+  <section class="services">
+    <div class="service-card">
+      <h3>Custom Website Design</h3>
+      <p>Tailored, visually stunning websites designed to reflect your brand and goals.</p>
+    </div>
+    <div class="service-card">
+      <h3>E-Commerce Solutions</h3>
+      <p>Powerful, secure online stores using Shopify, WooCommerce, or custom platforms.</p>
+    </div>
+    <div class="service-card">
+      <h3>Responsive Design</h3>
+      <p>Websites that look perfect on desktops, tablets, and phones.</p>
+    </div>
+    <div class="service-card">
+      <h3>SEO Optimization</h3>
+      <p>Improve visibility on search engines with clean, optimized code and structure.</p>
+    </div>
+    <div class="service-card">
+      <h3>Web App Development</h3>
+      <p>Advanced web applications with React, Node.js, and cloud integration.</p>
+    </div>
+    <div class="service-card">
+      <h3>Maintenance & Support</h3>
+      <p>Ongoing support to ensure your site remains secure and up-to-date.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Need a Website That Converts?</h2>
+    <p>Let our experts craft a digital presence that delivers results.</p>
+    <a href="contact.html">Request a Free Quote</a>
+  </section>
+
+  <footer>
+    &copy; 2025 WebDev Solutions. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

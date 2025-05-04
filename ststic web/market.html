@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marketing Services</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f8fc;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                  url('images/marketing-banner.jpg') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section h2 {
+      color: #1a73e8;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #4B8DF8;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    .cta-section {
+      background-color: #1a73e8;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      margin-top: 60px;
+    }
+
+    .cta-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      padding: 14px 32px;
+      background-color: white;
+      color: #1a73e8;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #f0f0f0;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Professional Marketing Solutions</h1>
+  </div>
+
+  <div class="section">
+    <h2>Boost Your Brand with Us</h2>
+    <p>We provide data-driven, ROI-focused digital marketing services that help you grow and dominate your niche. Whether you're a startup or an established business, our strategies are custom-built to maximize your online presence.</p>
+
+    <div class="services-grid">
+      <div class="card">
+        <h3>SEO Optimization</h3>
+        <p>Improve your website’s visibility on search engines and drive organic traffic with proven SEO strategies.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Campaigns</h3>
+        <p>Engage audiences with curated content and paid ad strategies across Facebook, Instagram, and LinkedIn.</p>
+      </div>
+      <div class="card">
+        <h3>Google Ads</h3>
+        <p>Target the right customers with highly optimized paid search campaigns and increase conversions.</p>
+      </div>
+      <div class="card">
+        <h3>Email Marketing</h3>
+        <p>Build customer loyalty with beautifully designed and automated email campaigns tailored to your audience.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <h2>Ready to Grow Your Business?</h2>
+    <a href="contact.html" class="cta-button">Contact Us Today</a>
+  </div>
+
+</body>
+</html>

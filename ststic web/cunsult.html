@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consultancy Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('images/consultancy-banner.jpg') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      padding: 20px 30px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section h2 {
+      color: #1a73e8;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #3a7bd5;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    .testimonials {
+      background: #f0f4ff;
+      padding: 40px 20px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      color: #2b5cb1;
+    }
+
+    .quote {
+      font-style: italic;
+      margin: 20px auto;
+      max-width: 700px;
+      color: #333;
+    }
+
+    .cta {
+      background: #2b5cb1;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      margin-top: 60px;
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta a {
+      background: white;
+      color: #2b5cb1;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .cta a:hover {
+      background: #f1f1f1;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Expert Consultancy Services</h1>
+  </div>
+
+  <div class="section">
+    <h2>Unlock Growth with Professional Guidance</h2>
+    <p>Our consultancy team brings industry experience, strategic insight, and practical solutions to help your business thrive in today’s competitive landscape.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Business Strategy</h3>
+        <p>Craft long-term business strategies based on market insights, competitor analysis, and internal assessments.</p>
+      </div>
+      <div class="card">
+        <h3>Technology Consulting</h3>
+        <p>Adopt the right technologies and systems to streamline operations and enhance customer experience.</p>
+      </div>
+      <div class="card">
+        <h3>Financial Planning</h3>
+        <p>Ensure profitability and growth through sound financial modeling and capital planning.</p>
+      </div>
+      <div class="card">
+        <h3>HR & Compliance</h3>
+        <p>Align your human capital with business objectives and ensure you meet all regulatory requirements.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <p class="quote">“The consultancy support was transformative for our business. We now operate smarter and more confidently in our decisions.” – Sarah T., Startup Founder</p>
+  </div>
+
+  <div class="cta">
+    <h2>Get Your Free Consultation Today</h2>
+    <a href="contact.html">Schedule Now</a>
+  </div>
+
+</body>
+</html>
